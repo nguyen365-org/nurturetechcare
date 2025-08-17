@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuture Tech Care LLC</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
@@ -16,23 +15,20 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- Header & Navigation -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <!-- Company Logo/Name -->
             <a href="#" class="text-2xl font-bold text-blue-600 tracking-wide">
                 Nuture Tech Care
             </a>
-            <!-- Navigation Links -->
             <ul class="flex space-x-6">
                 <li><a href="#services" class="text-gray-600 hover:text-blue-600 transition duration-300">Services</a></li>
                 <li><a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">About Us</a></li>
                 <li><a href="#contact" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact</a></li>
+                <li><a href="#privacy" class="text-gray-600 hover:text-blue-600 transition duration-300">Privacy</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="bg-blue-600 text-white py-20 md:py-32 text-center">
         <div class="container mx-auto px-6">
             <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
@@ -47,7 +43,6 @@
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Holistic Care Services</h2>
@@ -56,7 +51,6 @@
             </p>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- IT Services Card -->
                 <div class="p-8 bg-white rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
                     <div class="text-blue-600 mb-4 inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -69,7 +63,6 @@
                     </p>
                 </div>
 
-                <!-- Personal Services Card -->
                 <div class="p-8 bg-white rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
                     <div class="text-blue-600 mb-4 inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -82,7 +75,6 @@
                     </p>
                 </div>
 
-                <!-- HSA/FSA Products Card -->
                 <div class="p-8 bg-white rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
                     <div class="text-blue-600 mb-4 inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -98,7 +90,6 @@
         </div>
     </section>
 
-    <!-- About Us Section -->
     <section id="about" class="py-16 md:py-24 bg-gray-100">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Story: Nurturing Your Needs</h2>
@@ -113,7 +104,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
@@ -134,9 +124,42 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <section id="privacy" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-6 text-left">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">Privacy Policy</h2>
+            <div class="max-w-4xl mx-auto space-y-6 text-gray-700">
+                <p>Your privacy is important to us. It is Nuture Tech Care LLC's policy to respect your privacy regarding any information we may collect from you across our website.</p>
+                
+                <h3 class="text-2xl font-semibold pt-4">1. Information We Collect</h3>
+                <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We primarily collect information you voluntarily provide to us through our contact form, including your name and email address.</p>
+                <p>We may also collect non-personally identifying information that your browser makes available automatically, such as your browser type, language preference, referring site, and the date and time of each visitor request. Our purpose in collecting this information is to better understand how our visitors use the website.</p>
+
+                <h3 class="text-2xl font-semibold pt-4">2. How We Use Your Information</h3>
+                <p>We use the information we collect to:</p>
+                <ul class="list-disc list-inside ml-4 space-y-2">
+                    <li>Respond to your inquiries, questions, and comments.</li>
+                    <li>Provide, operate, and maintain our services.</li>
+                    <li>Improve, personalize, and expand our services and website.</li>
+                    <li>Understand and analyze how you use our website to enhance user experience.</li>
+                    <li>Communicate with you, either directly or through one of our partners, for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes, with your consent.</li>
+                </ul>
+
+                <h3 class="text-2xl font-semibold pt-4">3. Information Sharing and Disclosure</h3>
+                <p>We do not sell, trade, or rent your personally identifiable information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates, and advertisers.</p>
+                <p>We may disclose your information to third-party service providers who perform services on our behalf (e.g., website hosting or form processing), under strict confidentiality agreements. We may also disclose your information if required to do so by law or in the good faith belief that such action is necessary to comply with a legal obligation.</p>
+
+                <h3 class="text-2xl font-semibold pt-4">4. Data Security</h3>
+                <p>We are committed to protecting the security of your personal information. We use a variety of administrative, technical, and physical security measures to help protect your information from unauthorized access, use, or disclosure. We store the personal information you provide on computer systems with limited access, located in controlled facilities.</p>
+                <p>However, please be aware that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.</p>
+            </div>
+        </div>
+    </section>
+
     <footer class="bg-gray-800 text-white py-8">
         <div class="container mx-auto px-6 text-center">
+            <div class="mb-4">
+                <a href="#privacy" class="hover:text-blue-400 transition">Privacy Policy</a>
+            </div>
             <p>&copy; <span id="copyright-year">2024</span> Nuture Tech Care LLC. All rights reserved.</p>
         </div>
     </footer>
@@ -152,26 +175,6 @@
                     });
                 });
             });
-            /*
-            // Simple form submission handler
-            const contactForm = document.getElementById('contactForm');
-            const formMessage = document.getElementById('formMessage');
-        
-            contactForm.addEventListener('submit', (e) => {
-                e.preventDefault();
-                // Simulate form submission
-                console.log('Form submitted!');
-                
-                // Show success message and clear form
-                formMessage.classList.remove('hidden');
-                contactForm.reset();
-                
-                // Hide message after 5 seconds
-                setTimeout(() => {
-                    formMessage.classList.add('hidden');
-                }, 5000);
-            });
-            */
 
           // Find the element with the ID 'copyright-year'
           const yearSpan = document.getElementById('copyright-year');
